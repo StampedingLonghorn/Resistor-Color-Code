@@ -22,6 +22,8 @@ def BandA(): # Runs the function to
     Band1 = input ("> ")
     Band1 = Sanitizer(Band1)
     return Band1
+    
+os.system(['clear','cls'][os.name == 'nt'])
 
 def BandB():
     print ("What is the color of Band 2?")
@@ -38,6 +40,8 @@ def BandB():
     Band2 = input ("> ")
     Band2 = Sanitizer(Band2)
     return Band2
+
+os.system(['clear','cls'][os.name == 'nt'])
 
 def BandC():
     print ("What is the color of Band 3?")
@@ -64,6 +68,8 @@ def BandC():
     elif Band3 == 11:
         Band3 = 0.01
     return Band3
+
+os.system(['clear','cls'][os.name == 'nt'])
 
 def BandD():
     print ("What is the color of Band 4?")
@@ -96,6 +102,8 @@ def BandD():
     elif Band4 == 10:
         Band4 = 20
     return Band4
+
+os.system(['clear','cls'][os.name == 'nt'])
 
 while 1:
     print ("Resistor Color Code")
